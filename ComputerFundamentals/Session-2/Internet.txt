@@ -39,3 +39,9 @@ NETWORK LAYER
 	- group of computers are connected togather with equal permissions and responsibilities
 	- p2p networking comes with numbers of benifit
 	  for eg: if a traditional client-server network mode, if server goes down, it can take the whole                 network with it. But in p2p if a single device goes slow down the others on the network can help to           pick up the slack. they also ensure that network traffic  doesn't get bottlednecked at one device
+
+
+Intranet: Used for Local Communication among the company and its employee, like sharing company's resources to the employees via LAN or Wan connectivity
+
+Extranet: User for sharing company information like product price, catalogues and other information to its suplier, vendor, distributor via Public Internet
+		(Intranet + Public Internet= Extranet)
