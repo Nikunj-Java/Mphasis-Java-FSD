@@ -45,3 +45,45 @@ Intranet: Used for Local Communication among the company and its employee, like 
 
 Extranet: User for sharing company information like product price, catalogues and other information to its suplier, vendor, distributor via Public Internet
 		(Intranet + Public Internet= Extranet)
+
+***************************************************************************************************************
+what is CIA ???
+---------------------------------------------------------------------------------------------------------------
+
+CIA stands for
+
+1. Confidentiality
+2. Integrity
+3. Availability
+
+
+1. Confidentiality:
+-----------------------
+
+- it means that only authorised individuals, system can view sensitive information .
+- the data being sent over the network should not be accessed by unauthorised individuals.
+- otherwise attacker may try to capture the data using different tools available on the internet and gain access to your sensitive information
+- a primary way to avoid this is to use encryption technique
+- it will safeguard your data, and even if it was being hacked no one can decrypt it 
+- Encryption can be done in two ways
+	1. AES (Advance Encription Standard)
+	2. DES (Data Encryption Standard)
+- another way is to use VPN(Vertual Private Network) that helps the data to move through securely over the internet.
+
+
+2. Integrity:
+--------------------
+
+- the idea is to make sure that data has not been modified or not.
+- for that we use Hash Function(Fingerprint).
+	1. SHA (Secure Hash Algorithm)
+	2. MD5 (Message Direct 5)
+- eg: Let's assume person 'A' wants to send data tp Person 'B' by maintaining Integrity.
+	A hash function will run over the data and produces an arbitary has value 'H1' which is then attached to the data. when Person 'B' receives the packet, it return the same hash function over the data which gives a hash value 'H2'. if H1=H2 , this means that the data's integrity is maintained and contents were not modified.
+
+
+3. Availability:
+--------------------
+
+- This means that the network should be readily available to its user
+- to ensure the availabilty, the network should maintain the hardware, make regular updates, have plan for fail-over, and prevents  bottlenecked in a network
