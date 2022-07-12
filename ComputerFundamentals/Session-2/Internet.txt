@@ -1,0 +1,41 @@
+***********************************************************************
+Internet
+***********************************************************************
+
+- it is a vast network connected all over the wolrd
+- peoples can share information and communication from anywhere with internet
+- it consisting of IP, TCP and P2P.
+
+	1. IP :
+	---------------------
+	- It is Internet Protocol address
+	- it is unique protocol address to each machine
+	  (eg: 192.168.0.1)
+	
+	2. TCP:
+	---------------------
+	- It is Transmission Control Protocol
+	- It is connection - oriented protocol for communication that helps in the exchange of messages between           the different devices over network
+
+
+eg:
+
+******************************************
+APPLICATION LAYER
+******************************************
+TCP LAYER
+******************************************
+IP LAYER
+******************************************
+NETWORK LAYER
+******************************************
+	- TCP make sure that messages reaches to its target location.
+	- it breaks down the data into small bundles and afterwards it reassambles the bundle into the original           message on the opposite end.
+	- sending the information in the small bundle make it simpler to maintain efficiency as opposed to           sending everything one on go.
+
+	3. P2P:
+	----------------
+	- peer-to-peer Network Connection
+	- group of computers are connected togather with equal permissions and responsibilities
+	- p2p networking comes with numbers of benifit
+	  for eg: if a traditional client-server network mode, if server goes down, it can take the whole                 network with it. But in p2p if a single device goes slow down the others on the network can help to           pick up the slack. they also ensure that network traffic  doesn't get bottlednecked at one device
