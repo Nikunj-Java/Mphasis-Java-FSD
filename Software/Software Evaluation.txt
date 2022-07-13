@@ -1,0 +1,37 @@
+*********************************************************************************************
+Software Evolution
+*********************************************************************************************
+1. Documentation: Enlist Requirenment for a software 
+2. Developement: Developer Prepares the Software According to the requirement
+3. Testing: This Software must be shared with users to take feedback and if it has error it      must be updated to match the requirement
+
+NECESSITY OF SOTWARE EVOLUTION:
+	- Change in requirement with time
+	- Environment change
+	- Erros and Bugs
+	- Security and Risk
+	- Must Have New Functionality and Features
+	
+
+Stage Of Software Development Life Cycle (SDLC):
+	- it has Five stages
+	1. Requirement
+		- gathering information from customer or from the user.
+		- engineer communicates with the client and end-user to know their Idea and 		  about the feature of software
+	2. Software Design
+		-it is a process in which engineer transfer requirement into working model
+		-it help programmer in software coading.
+		-it will will make the proccess easy.
+		-there are  three types of Software Designing
+			A. ARCHITECTURAL DESIGN: Highest Version of System
+			B. HIGH-LEVEL DESIGN: focus on how sytem and component implemented
+			C. DETAILED DESIGN: it focus on the logical structure of each module 				and its interface to communicate with each module
+		
+	3. Developing Product
+		- it is crucial part of SDLC.
+		- it is also known as Implementation Phase
+	4. Testing and Integration
+		- in this stage we will integrate the modules and will test the overall 		  product by using different technology
+	5. Developement and Maintanance
+		- When Final Product is Deployed , we will do maintainance of product for any 		  future update  and releases of new features
+
