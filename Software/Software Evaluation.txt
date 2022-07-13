@@ -35,3 +35,120 @@ Stage Of Software Development Life Cycle (SDLC):
 	5. Developement and Maintanance
 		- When Final Product is Deployed , we will do maintainance of product for any 		  future update  and releases of new features
 
+*********************************************************************************************
+SOFTWARE DEVELOPEMENT PROCESS(SDP)
+*********************************************************************************************
+
+it consisting of Four kEY PROCESS
+1. SPECIFICATION
+2. DEVELOPMENT
+3. VALIDATION
+4. EVOLUTION
+
+
+	1. SPECIFICATION (SRS- SOFTWARE REQUIRMENT SPECIFICATION)
+	- it is a foundation of any software
+	- it contains the list of user requrements for a system as well as detailed 	  decription of system requirements
+	- it contains the flow of software
+	- it explains how the software will work
+	- it help developer to build fully functional software
+	2. DEVELOPEMENT:
+	- it is second level of SDP	
+	- in this level developer developes a software accorind to clients requirement
+	- it is totally based on Specification.
+	3. VALIDATION:
+	- it is process of checking whether the software product is up to the mark or in 	  other words product has high level requirements.
+	- it is the process of checking the validity of the product
+	- it is validation of the actual and expected product
+	4. EVOLUTION:
+	- The term Evolution it self it describes development
+	- initially and then periodically updating a software for various reason is required
+	- to add a new feature or to remove old feature or a bug, the evolution process  is needed
+	- it includes
+		a. CHANGE ANALYSIS
+		b. RELEASE PLANNING
+		c. SYSTEM IMPLEMENTATION
+		d. RELEASE TO THE CUSTOMER
+	-NECESSITY OF SOTWARE EVOLUTION:
+		a. Change in requirement with time
+		b. Environment change
+		c. Erros and Bugs
+		d. Security and Risk
+		e. Must Have New Functionality and Features
+
+
+
+*********************************************************************************************
+What is Scrum in AGILE?
+*********************************************************************************************
+
+- SCRUM is an agile developement process focused on ways to manage task in team-based    development conditions
+
+- there are three roles in it. and their responsibilities are:
+	1. SCRUM MASTER
+		- the scrum master can set up master team , arrange the meeting and remove 		  the obstacle for the process
+		- scrum masters are the falicitator of scrum, the lightweight agile framework 		  with a focus on time-boxed iterations called SPRINT
+		- SRCUM MASTER act as a coaches to the rest of team.
+		- SERVENT LEADER as the Scrum Guide puts it.
+		- good scrum master are committed to the scrum foundation
+		- but remain flexible and open to opportunities for the team to improve their 
+		  workflow
+
+		ROLES AND RESPONSIBILITIES:
+		----------------------------
+		a. STANDUPS: falicitate daily standups (for daily scrum) meeting as needed				(10-15 minutes max time)
+
+		b. SPRINT PLANNING : Protect the team from over commiting and scope creep.
+		
+		c. SPRINT REVIEWS: Participates in the meeting and capture feedback
+		d. RETROSPECTIVE: Note areas of improvement and action items for future 		   sprints
+		e. BOARD ADMINISTRATION: work as administrator of the Scrum board. ensure 		   	   that Cards are up to date and use SCRUM TOOL- JIRA SOTWARE 
+		f. ONE-ON-ONE: meets indivudually with team members  and stackeholders as 		   needed
+
+	2. PRODUCT OWNER
+		- the product owner  makes product backlog, prioritizes the delay and is 		  	  responsible for the distribution of functionality on each repetaition
+		
+
+		ROLES AND RESPONSIBILITIES:
+		----------------------------
+		a. manage product backlog
+		b. Prioterize and order the product backlog in the right manner so that the 		   important task are given topmost priority
+		c. prioterize work items and product backlog , this must be done in line with 		   customer vision and goals
+		d. product owner ensure that product backlog is communicated clearly to all 		   team members
+		e. the scrum team must have clarity on thhe product requrements and user 		   expecations
+		f. must have Leadership and Communication Skills
+		g. Maximise the value of product(product prepared in short time)
+		h. Effective Interpretation of Customer Requirements.
+		i. must act as primary point of contact
+		j. Communicating Customer Vision
+		k. must have market industry experience so that a product owner can 		   		   anticipate customer needs.
+		l. Evaluation Progress- must monitor each phase of developement cycle and can 		   suggest changes if required
+		m.
+		
+
+	3. SCRUM TEAM	
+		- the team manages its work and organizes the work to complete the sprint or 		  cycle
+
+
+*********************************************************************************************
+		DIFFRENCE BETWEEN SCRUM MASTER AND PRODUCT OWNER
+*********************************************************************************************
+			SCRUM MASTER		| 	PRODUCT OWNER
+----------------------------------------------------------------------------------------------A. Srum master is an expert in agile practice   | A. product owner is around project
+B. Scrum master ensure all messages		| B. product owner support the team with 
+   And communication was done in right manner	|    updates and new change if required
+---------------------------------------------------------------------------------------------
+
+
+
+
+
+WHEN TO USE??
+- when frequent changes are required
+- when highly qualified and experience team is available
+- when customer is ready to have a meeting with a software team all the time
+
+DISADVANTAGES:
+
+- Due to the lack of formal documentation, it creates confusion and crucial decision taken      throughout various phases can be misinterpreted at any time by different team members
+- once the project is completed and the developers allotted to another project, maintenance   of the finished project can become difficult
