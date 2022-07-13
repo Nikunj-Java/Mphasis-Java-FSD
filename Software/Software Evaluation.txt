@@ -134,7 +134,8 @@ What is Scrum in AGILE?
 		DIFFRENCE BETWEEN SCRUM MASTER AND PRODUCT OWNER
 *********************************************************************************************
 			SCRUM MASTER		| 	PRODUCT OWNER
-----------------------------------------------------------------------------------------------A. Srum master is an expert in agile practice   | A. product owner is around project
+---------------------------------------------------------------------------------------------
+A. Srum master is an expert in agile practice   | A. product owner is around project
 B. Scrum master ensure all messages		| B. product owner support the team with 
    And communication was done in right manner	|    updates and new change if required
 ---------------------------------------------------------------------------------------------
