@@ -127,7 +127,16 @@ What is Scrum in AGILE?
 		
 
 	3. SCRUM TEAM	
-		- the team manages its work and organizes the work to complete the sprint or 		  cycle
+		- the team manages its work and organizes the work to complete the sprint or 		  	  cycle
+		- also known as developement team
+		- it is always small
+		- it is consisting of skilled and professionals who do the hands-on work of 		  completing the task in scrum sprint.
+		- this means that developement team memebers can be engineers, designers , 		  writers, data analysts ,or any other role needed to reach sprint goals.
+		- this team doesn.t just wait for orders; they usually colloborate to map out 		  goals and plans for achieving them
+		- not all developement  team members will always have same responsibilities.
+		- for eg: if you are updating a website you might have a front -end -		  engineer, UX designer, copywritter and marketing professional and all 		  working on the same scrum team.
+		- the responsibility of developmenet team will also depends on the end golas 		  of the scrum team.
+		
 
 
 *********************************************************************************************
