@@ -1,0 +1,73 @@
+*********************************************************************************************
+SPIRAL MODEL
+*********************************************************************************************
+
+- it is one of the most important SDLC models, which provides support for risk Handling
+- if we will see the diaramattic represesntaion of this model it looks like a spiral with many loops. 
+- the exact number of loops of spiral is unknown and can vary from project to project.
+- each loop of the spiral is called as PHASE OF SOFTWARE DEVELOPMENT PROCESS.
+
+- the exact number of phases needed to develop the product can be varied by  the project manager based on projecr risk.
+- so we can say that in this model project manager has an important role to develope a product using the spiral model.
+
+- the radius of spiral model represents the cost of project so far.
+- each phase of spiral model is divided into four quadrants as shown in the diagram
+
+1. OBJECTIVE
+2. RISK MANAGEMENT
+3. DEVELOPEMENT
+4. REVIEW AND PLAN
+
+
+1. OBJECTIVE:
+-------------------
+- in this phase requirements are gathered from customer and objectives are identified
+- then it is analysed , elaborated at the start of every phase
+
+2. RISK MANAGEMENT:
+---------------------
+- during the second quadrant all the possible solutions are evaluated to select the best possible solution.
+- as a result the risk associated with that solution are resolved
+- at the end of this quadrant the prototype is built for the best possible solution.
+
+3. DEVLOPMENT:
+---------------------
+- during the third quadrant the identified features are developed and verified through testing
+- at the end of third phase , the next version of the software is available.
+
+4. REVIEW AND PLAN:
+---------------------
+-the fourth quadrant , the customers evaluate the so far developed version of the software.
+- in the end planning for the next phase is started.
+
+
+
+---------------------------------------------------------------------------------------------
+
+WHY SPIRAL MODEL?
+
+---------------------------------------------------------------------------------------------
+
+- it is also known as META-MODEL . because of it subsumes all the SDLC models.
+
+- if you will see a single spiral loop - actually it represents the -ITERATIVE WATERFALL MODEL, the spiral model incorporates the stepwise approch of Classical WATERFALL MODEL
+
+- it also uses the approch of PROTOTYPING MODEL by building PROTOTYPE at the begining of each phase as a risk handling technique
+
+- it is consider as EVOLUTIONARY MODEL 
+- the iteration along the spiral can be considerd as evolutionary levels through which the complete system is built
+
+- it is good for risk handling
+- it is Good for Large Project
+- it has flexibility in requirements
+- good customers satisfaction
+
+
+---------------------------------------------------------------------------------------------DISADVANTAGEES:
+---------------------------------------------------------------------------------------------
+1. IT IS COMPLEX THAN SDLC MODEL
+2. IT IS EXPENSIVE NOT SUITABLE FOR SMALL PROJECT
+3. TOO MUCH DEPENDABILITY ON RISK MANAGEMENT AND THIS CAN NOT BE DONE WITHOUT RISK ANALYSIS
+4. IT CONSUME MORE TIME AS A RESULT WE WILL PHASE DIFFICULTY IN TIME MANAGEMENT
+
+
