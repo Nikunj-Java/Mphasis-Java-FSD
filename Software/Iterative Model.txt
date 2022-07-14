@@ -1,0 +1,78 @@
+*********************************************************************************************ITERATIVE MODEL
+*********************************************************************************************
+
+-in this model, we can start with some of the software and we can develope the first 
+ basic version of the software.
+
+- after the first version if there is a need to change the software then a new version  of 
+  the software is created with a new iteration.
+
+- every release of the iterative model finished in exact and fixed period that is called as 
+  iteration
+
+- iterative model the final output of the software/project renewed at the end of the 
+  SDLC process.
+
+---------------------------------------------------------------------------------------------
+PHASES OF ITERATIVE MODEL
+---------------------------------------------------------------------------------------------
+
+1. REQUIREMENT GATHERING AND ANALYSIS:
+---------------------------------------
+
+- in this phase requirements are gathered from customer and check by an analyst whether requrements will fullfill or not. anylyst checks that need will achieve within budget or not.
+- after all of this the software team skips to the next phase
+
+2. DESGIN:
+---------------------------------------
+- in this phase team design the software in different diagrams like data flow diagram, activity diagram, class diagram,state transtion diagram, etc..
+- finally they prepare a blueprint  of software design.
+
+3. IMPLEMENTATION:
+---------------------------------------
+
+- in this phase requrements are written in coading language and transformed into computer program which are called software.
+
+4. TESTING:
+---------------------------------------
+- after completing the coading part , software testing start using different test methods and testing tools like TESTNG, JENKINS, DOCKER, KUBERNATES,AWS  not only that but with several methods like white box, blxk box, grey box etc...,
+
+5. DEPLOYMENT:
+---------------------------------------
+- after completing all of the above phases software is deployed to its work environment
+
+
+6. REVIEW:
+---------------------------------------
+- in this phase after the product deployment, review phase is performed to check the behaviour and validity of the developed product.
+- i there are any error found then the process start again from the requiremnt gathering.
+
+7. MAINTENANCE:
+---------------------------------------
+- in the maintanace phase, after deployment of the software in the working environment there may be some bugs, some errors or new updates are required.
+- maintenance involves debugging and new addition options.
+
+
+---------------------------------------------------------------------------------------------WHEN TO USE ITERATIVE MODEL?
+--------------------------------------------------------------------------------------------
+1. WHEN REQUREMENTS ARE DEFINED CLEARLY AND EASY TO UNDERSTAND
+2. WHEN SOFTWARE APPLICATION LARGE
+3. WHEN THERE IS A REQUREMENT OF CHNAGES IN FUTURE.
+
+
+---------------------------------------------------------------------------------------------ADVANTAGES:
+---------------------------------------------------------------------------------------------
+1. IT IS EASY TO DO TESTING AND DEBUGGING FOR SMALL ITERATION
+2. WE CAN RUN PARALLEL DEVELOPEMENT
+3. EASY TO ACCEPT CHANGE NEED FOR PROJECT
+4. RISK ARE IDENTIFIED AND RESOLVED DURING ITERATION
+5. LIMITED TIME SPENT ON DOCUMENTATION AND EXTRA TIME ON DESIGNING
+
+---------------------------------------------------------------------------------------------
+DISADVANTAGES:
+---------------------------------------------------------------------------------------------
+1. IT IS NOT SUITABLE FOR SMALL PROJECT
+2. MORE RESOURCES  MAY BE REQUIRED
+3. DESIGN CAN BE CHANGED AGAIN AND AGAIN BECAUSE OF NOT FIXED REQUIREMENTS
+4. REQUREMENTS  CHANGES CAN CAUSE OVER BUDGET
+5. PROJECT COMPLETION DATE NOT CONFIRMED  BECUASE OF CHANGING REQUREMENTS.
