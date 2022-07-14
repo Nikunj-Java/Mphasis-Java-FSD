@@ -3,6 +3,7 @@
 
 STEP:1 DOWNLOAD GIT
 			LINK: https://git-scm.com/downloads
+			
 STEP: 2 CREATE ACCOUNT ON GIT HUB
 			lINK: https://github.com/
 
