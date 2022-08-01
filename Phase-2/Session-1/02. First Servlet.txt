@@ -1,0 +1,92 @@
+step:1
+
+> create webdynamic webproject
+> src>main>webapp> right click on it and generate 'index.html'file
+
+index.html  file
+-------------------
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FirstProject</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+
+
+<a href="login">Click here For Login</a>
+
+
+
+</body>
+</html>
+
+
+
+
+
+--------------------
+
+
+generate java class  in javafolder
+
+FirstServlet.java
+-------------------------
+
+
+package com.simplilearn.com;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+public class FirstServlet extends  HttpServlet   {
+	
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException , IOException
+	{
+		
+		PrintWriter out= resp.getWriter();
+		out.print("Welcome"); //write out put in browser
+		
+		
+	}
+
+}
+	 
+--------------------------------------------------------------------------
+open web.xml file-- by default it will show you the design you can click on source tab to edit the  file
+--------------------------------------------------------------------------
+
+web.xml
+----------
+
+
+
+<!-- Configuration for my servlet -->
+  
+  <servlet>
+  		<servlet-name>first</servlet-name>
+  		<servlet-class>com.simplilearn.com.FirstServlet</servlet-class>
+  </servlet>
+  <!-- Request will come  here -->
+  <servlet-mapping>
+  	<servlet-name>first</servlet-name>
+  	<url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+
+-------------------------------------------------------------------------
+
+right click on project > run on server
+
+
+click on the link on htmlweb page and checkthe  out put
+ 
