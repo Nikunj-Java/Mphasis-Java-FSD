@@ -1,0 +1,61 @@
+
+Step:1 
+--------------
+Download Apache tomcat 9.0 from the  below  link
+
+Link: https://tomcat.apache.org/download-90.cgi#9.0.65
+
+Step:2
+---------------
+>Open Eclips IDE and Create New Workspace to configure Server in eclips
+
+> goto files>new>others>server
+
+>choose your apache tomcat version (say 9.0)
+>click on next
+
+>give the correct path of server and click on next and finish
+
+
+>now you can see created server in your server tab in eclips
+
+>you can right click on it and start your server
+
+--------------------------------------------------------------
+1. Create a  new dynamic web project
+2. give project name
+3. you can select runtime environment(Tomcat v 9.0)
+4. while creating a project one check box will be displayed to you
+    for  creating web.xml file check it.
+5. create a project
+
+
+6. goto> src>main>webapp
+
+    right click on it>new  >HTML file>
+       give the name as ' index.html '  save it
+
+7. index.html
+..................................
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>FirstProject</title>
+</head>
+<body>
+
+<h1>Hello World</h1>
+<h2>Hello World</h2>
+<h3>Hello World</h3>
+<h4>Hello World</h4>
+<h5>Hello World</h5>
+<h6>Hello World</h6>
+
+
+</body>
+</html>
+......................................................
+
+8. right click on project > run on server
