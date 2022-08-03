@@ -1,0 +1,65 @@
+create database:
+------------------------
+
+
+> create database  ecommerce1;
+
+use database
+--------------
+
+>use ecommerce1;
+
+
+create table
+----------------
+
+> create table eproduct  (id bigint primary  key auto_increment,name varchar(100),price decimal(10,2),date_added timestamp default now());
+
+
+verifythe table  iscreated or not?
+----------------------------------
+
+> describe eproduct;
+
+
+--------------------------------------------------------------------------
+Let's  Insert somerecords in the table
+--------------------------------------------------------------------------
+
+>insert into eproduct(name,price) value('HP Laptop ABC', 12000);
+>insert into eproduct(name,price) value('LENOVO Laptop', 16000);
+>insert into eproduct(name,price) value('DELL Laptop', 56000);
+>insert into eproduct(name,price) value('ACER Laptop', 14000);
+
+
+To Retrive the data:
+---------------------
+
+
+>  select * from eproduct;
+
+
+To filter a data:
+--------------------
+> select * from eproduct where  id=1;
+> select * from eproduct where price=12000 && id=1;
+
+
+update data:
+-------------------
+> update eproduct set  name= 'XYZ-123' where id=2;
+
+
+delete data:
+--------------------
+> delete from eproduct where id=4;
+
+
+delete entire table:
+----------------------
+
+> drop table eproduct;
+
+
+
+
