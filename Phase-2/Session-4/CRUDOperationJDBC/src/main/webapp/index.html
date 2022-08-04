@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<!-- this one is for FETCH a RECORD -->
+<H1>LIST OF PRODUCTS</H1>
+<a href="list">List Products</a>
+
+<br>
+<br>
+
+
+
+<!-- this one is for CREATE a RECORD -->
+<h1>Product Registration Form</h1>
+<form action="save"  method="post">
+Product Name: <input type="text" name="pname" placeholder="Enter Product Name"><br><br>
+Product Price: <input type="text" name="pprice" placeholder="Enter Product price"><br><br>
+<input type="submit" value="Add Prodcut">
+
+</form>
+<br>
+<br>
+
+
+
+<!-- this one is for DELETE a RECORD -->
+<h1>DELETE RECORD</h1>
+<form action="delete"  method="post">
+Product id: <input type="text" name="id" placeholder="Enter Product id"><br><br>
+<input type="submit" value="DELETE Prodcut">
+
+</form>
+
+<br>
+<br>
+
+<!-- this one is for DELETE a RECORD -->
+<h1>UPDATE RECORD</h1>
+<form action="update"  method="post">
+Product id: <input type="text" name="id" placeholder="Enter Product id"><br><br>
+Product Name: <input type="text" name="pname" placeholder="Enter Product Name to  be updated"><br><br>
+Product Price: <input type="text" name="pprice" placeholder="Enter Product price to  be updated"><br><br>
+<input type="submit" value="UPDATE Prodcut">
+
+</form>
+
+
+
+<br>
+<br>
+</body>
+</html>
