@@ -1,0 +1,14 @@
+open already prepared database:
+--------------------------------
+> use ecommerce1;
+
+
+Create  Store procedure in MYSQL:
+-------------------------------------
+> CREATE PROCEDURE add_product(IN pname varchar(100), IN pprice decimal(10,2))  INSERT INTO eproduct (name,price) VALUES (pname,pprice);
+
+
+to check it is working:
+-----------------------------------
+
+> CALL add_product('DEMO',12345);
