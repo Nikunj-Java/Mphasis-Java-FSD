@@ -42,11 +42,21 @@ public class FetchDBServlet extends HttpServlet{
 				stmt = conn.createStatement();
 				ResultSet rs=stmt.executeQuery("select * from eproduct");
 				
+				out.print("<table border=1 cellpadding=10 cellspacing=0> <thead><tr>");
+				out.print("<th>ID</th><th>NAME</th><th>PRICE</th><th>DATE</th>");
+				out.print("<tr></thead>");
+				out.print("<tbody>");
+				
 				while(rs.next()) {
 					
-					out.print(rs.getInt(1)+"  "+rs.getString(2)+" "+rs.getBigDecimal(3)+" "+rs.getTimestamp(4)+"<br>");
+					out.print("<tr>");
+					//out.print(rs.getInt(1)+"  "+rs.getString(2)+" "+rs.getBigDecimal(3)+" "+rs.getTimestamp(4)+"<br>");
+					out.print("<td>'"+rs.getInt(1)+"'</td><td>'"+rs.getString(2)+"'</td><td>'"+rs.getBigDecimal(3)+"'</td><td>'"+rs.getTimestamp(4)+"'</td>");
+					
+					out.print("</tr>");
 				}
 				
+				out.print("</tbody></table>");
 			} catch (SQLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
