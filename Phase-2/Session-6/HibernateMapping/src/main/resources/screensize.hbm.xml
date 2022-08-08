@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping package="com.simplilearn.demo">
+    	<class name="ScreenSize" table="screensize">
+    		<id name="SCREENID" type="long" column="ID">
+    			<generator class="indentity"/>
+    		</id>
+    		<property name="name" type="string" column="SIZE"></property>
+    	</class>
+    	
+    </hibernate-mapping>
