@@ -1,3 +1,5 @@
+****************hibernate collection mapping*******************************
+
 DROP TABLE IF EXISTS `colors`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
@@ -120,4 +122,33 @@ LOCK TABLES `screensizes` WRITE;
 /*!40000 ALTER TABLE `screensizes` DISABLE KEYS */;
 INSERT INTO `screensizes` VALUES (1,'12 in',1),(2,'14.5 in',2),(3,'14.9 in',2),(4,'15.5 in',3);
 /*!40000 ALTER TABLE `screensizes` ENABLE KEYS */;
+UNLOCK TABLES;
+
+
+
+***************for component mapping****************
+
+DROP TABLE IF EXISTS `eproduct`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `eproduct` (
+  `ID` bigint(20) NOT NULL AUTO_INCREMENT,
+  `name` varchar(100) DEFAULT NULL,
+  `price` decimal(10,2) DEFAULT NULL,
+  `date_added` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `parts_hdd` varchar(10) DEFAULT NULL,
+  `parts_cpu` varchar(10) DEFAULT NULL,
+  `parts_ram` varchar(10) DEFAULT NULL,
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `eproduct`
+--
+
+LOCK TABLES `eproduct` WRITE;
+/*!40000 ALTER TABLE `eproduct` DISABLE KEYS */;
+INSERT INTO `eproduct` VALUES (1,'HP Laptop ABC',21900.00,'2019-06-04 07:18:57','2 Gb HDD','AMD Phenom','4 Gb'),(2,'Acer Laptop ABC',23300.00,'2019-06-04 07:19:07','500 Gb HDD','Core-i7','4 Gb'),(3,'Lenovo Laptop ABC',33322.00,'2019-06-04 07:19:19','1 Tb HDD','Core-i7','8 Gb');
+/*!40000 ALTER TABLE `eproduct` ENABLE KEYS */;
 UNLOCK TABLES;
