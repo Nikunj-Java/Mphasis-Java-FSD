@@ -34,38 +34,38 @@ public class FetchData extends HttpServlet {
 		
 		for(EProduct product:list) {
 			out.print("<br>");
-			out.print("Id:"+product.getID()+"<br>");
-			out.print("Name:"+product.getName()+"<br>");
-			out.print("Price: "+product.getPrice()+"<br>");
-			out.print("Available from: "+product.getDateAdded()+"<br>");
+			out.print("<b>Id:</b>"+product.getID()+"<br>");
+			out.print("<b>Name:</b>"+product.getName()+"<br>");
+			out.print("<b>Price:</b> "+product.getPrice()+"<br>");
+			out.print("<b>Available from:</b> "+product.getDateAdded()+"<br>");
 			
-			out.print("Color Details:<br>");
+			out.print("<b>Color Details:</b><br>");
 			
 			List<Color> colors=product.getColors();
 			
 			for(Color c:colors) {
-				out.print("Color Name: "+c.getName()+"<br>");
+				out.print("<b>Color Name: </b>"+c.getName()+"<br>");
 				
 			}
 			
-			out.print("ScreenSize Details:<br> ");
+			out.print("<b>ScreenSize Details:</b><br> ");
 			
 			Collection<ScreenSizes> screen=product.getScreensizes();
 			
 			for(ScreenSizes sc:screen) {
-				out.print("Size: "+sc.getSize()+"<br>");
+				out.print("<b>Size: </b>"+sc.getSize()+"<br>");
 			}
 			
 			
 			
-			out.print("OS Details: ");
+			out.print("<b><br>OS Details: <br></b>");
 			
 			Set<OS>os=product.getOs();
 			for(OS o:os) {
-				out.print("OS: "+o.getName());
+				out.print("<b>OS: </b><br>"+o.getName());
 			}
 			
-			out.print("Finance Deatils:");
+			out.print("<b>Finance Deatils:</b><br>");
 			
 			Map finance= product.getFinance();
 			
@@ -78,8 +78,8 @@ public class FetchData extends HttpServlet {
 				f.getName();
 			}
 			
-			out.print("<br>-------------------------------------------<br>");
-			
+			 
+			out.print("<br>-----------------------------------------------------------<br>");
 		}
 	}
 
