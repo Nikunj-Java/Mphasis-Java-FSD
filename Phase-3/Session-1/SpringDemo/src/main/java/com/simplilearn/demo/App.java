@@ -15,5 +15,19 @@ public class App
     	
     	HelloWorld h= (HelloWorld)context.getBean("obj");
     	h.print();
+    	
+    	
+    	Student s=(Student) context.getBean("s1");
+    	
+    	System.out.println("Id: "+s.getId());
+    	System.out.println("Name: "+s.getName());
+    	
+    	
+    	
+    	Marks m=s.getMarks();
+    	
+    	System.out.println("Physics: "+m.getPhy());
+    	System.out.println("Chemistry: "+m.getChem());
+    	System.out.println("Mathematics: "+m.getMaths());
     }
 }

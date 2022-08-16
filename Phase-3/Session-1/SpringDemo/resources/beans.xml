@@ -10,5 +10,27 @@
     <!-- bean definitions here -->
     
     <bean id="obj" class="com.simplilearn.demo.HelloWorld"></bean>
+    
+    
+    
+    <!-- create marks object -->
+    <bean id="m" class="com.simplilearn.demo.Marks">
+    	<property name="phy" value="95"></property>
+    	<property name="chem" value="90"></property>
+    	<property name="maths" value="99"></property>
+    </bean>
+    
+    
+    
+    <!-- Create Student Object -->
+    <!-- injected the dependecy with the help of setter method -->
+    <bean id="s1" class="com.simplilearn.demo.Student" >
+    	<property name="id" value="1"></property>
+    	<property name="name" value="Nikunj Soni"></property>
+    	<property name="marks" ref="m"></property>
+    
+    </bean>
+    
+    
 
 </beans>
