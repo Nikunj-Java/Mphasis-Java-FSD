@@ -10,14 +10,26 @@ import org.springframework.web.client.RestTemplate;
 @RestController
 public class UserController {
 	
+	
+	
 	@GetMapping("/users")
-	public String getAllUsers() {
+	public ResponseEntity<Object[]> getAllUsers() {
 		
 		RestTemplate template= new RestTemplate();
-		UserModel users= template.getForObject("https://jsonplaceholder.typicode.com/users/1", UserModel.class);
-		return users.toString();
+		UserModel users[]= template.getForObject("https://jsonplaceholder.typicode.com/users", UserModel[].class);
+		return new ResponseEntity<Object[]>(users, HttpStatus.OK);
 		 
 	}
+	
+	/*
+	 * @GetMapping("/users") public String getAllUsers() {
+	 * 
+	 * RestTemplate template= new RestTemplate(); UserModel users=
+	 * template.getForObject("https://jsonplaceholder.typicode.com/users/1",
+	 * UserModel.class); return users.toString();
+	 * 
+	 * }
+	 */
 	
 	
 	@GetMapping("/users/{id}")
