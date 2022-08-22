@@ -1,0 +1,1 @@
+add 'Spring web' dependency from spring starter project
