@@ -1,0 +1,25 @@
+open cmd and move to the project folder:
+
+
+keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 -validity 700 -keypass changeit -storepass changeit  -keystore ssl-server.jks
+
+1.enter password:123456
+2.re-enterpassword:123456
+3.firstname: localhost
+4.organzational unit: website
+5.name of organization:website
+6.city:mumbai
+7.state:maharashtra
+8.two-letter contry code: 91
+9.then type yes
+
+copy this keystore.p12 file to src>main>resourcesfolder
+
+
+
+once you run the app
+
+goto browser: https://localhost:8443/
+
+and then you can check the response
+
