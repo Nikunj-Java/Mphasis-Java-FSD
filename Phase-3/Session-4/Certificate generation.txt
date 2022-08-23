@@ -15,11 +15,3 @@ keytool -genkey -alias selfsigned_localhost_sslserver -keyalg RSA -keysize 2048 
 
 copy this keystore.p12 file to src>main>resourcesfolder
 
-
-
-once you run the app
-
-goto browser: https://localhost:8443/
-
-and then you can check the response
-
