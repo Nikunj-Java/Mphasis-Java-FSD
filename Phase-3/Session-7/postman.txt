@@ -1,0 +1,15 @@
+for api-1
+
+{
+
+"name":"Nikunj",
+"age":35
+
+}
+
+for api 2
+
+{
+    "personId":3,
+    "hobbyName":"Programming"
+}
