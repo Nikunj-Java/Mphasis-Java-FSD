@@ -51,6 +51,15 @@ public class UserService {
 	}
 	
 	///DELETE USER BY ID
-	
+	public boolean deleteUser(int id) {
+		
+		if(repo.findById(id).isPresent())
+		{
+			repo.deleteById(id);
+			return true;
+		}
+		else
+			return false;
+	}
 
 }

@@ -61,6 +61,15 @@ public class UserController {
 			return new ResponseEntity<Object>("User is Not Available",HttpStatus.NOT_FOUND);
 	}
 	///DELETE USER BY ID
+	
+	@DeleteMapping("/{id}")
+	public ResponseEntity<Object> deleteUser(@PathVariable  int id ){
+		
+		if(service.deleteUser(id))
+			return new ResponseEntity<Object>("User Deleted", HttpStatus.OK);
+		else
+			return new ResponseEntity<Object>("No User Found",HttpStatus.NOT_FOUND);
+	}
 	 
 
 }
