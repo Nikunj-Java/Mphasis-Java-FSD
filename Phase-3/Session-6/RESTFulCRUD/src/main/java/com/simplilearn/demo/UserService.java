@@ -32,6 +32,25 @@ public class UserService {
 		
 	}
 	//update user by id
+	public  User updateUser(User user, int id) {
+		
+		if(repo.findById(id).isPresent())
+		{
+			User old= repo.findById(id).get();
+			old.setCountry(user.getCountry());
+			old.setName(user.getName());
+			old.setEmail(user.getEmail());
+			
+			return repo.save(old);
+		}
+		else
+		{
+			return null;
+		}
+		
+	}
+	
+	///DELETE USER BY ID
 	
 
 }

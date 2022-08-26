@@ -51,6 +51,16 @@ public class UserController {
 	}
 	
 	//update user by id
+	@PutMapping("/{id}")
+	public ResponseEntity<Object> updateUser(@RequestBody User user,@PathVariable int id){
+		User data= service.updateUser(user, id);
+		
+		if(data!=null)
+			return new ResponseEntity<Object>(data,HttpStatus.OK);
+		else
+			return new ResponseEntity<Object>("User is Not Available",HttpStatus.NOT_FOUND);
+	}
+	///DELETE USER BY ID
 	 
 
 }
