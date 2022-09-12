@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //iife syntax (function)();
+        (function()
+        { console.log("Welcome to IIFE");
+        })();
+
+        //iife function but value is stored in some variable
+
+        const empid=(function (){
+            let count=0;
+            return function (){
+                ++count;
+                return 'emp'+count;
+            }
+        })();
+
+        console.log("list of Employees");
+        console.log(empid());
+        console.log(empid());
+        console.log(empid());
+    </script>
+</body>
+</html>
