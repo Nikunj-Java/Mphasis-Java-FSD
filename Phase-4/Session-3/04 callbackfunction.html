@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function greeting(name){
+            console.log("Welcome !"+name);
+            document.write("Welcome !"+name);
+
+        }
+        //function paqssed as callback function
+        function fullname(fname,lname,callback){
+            fullname=fname+" "+lname;
+            console.log("Fullname: "+fullname);
+            callback(fullname);//callback function
+        }
+
+        //passing greeting function to callback variable
+        //this is known as an argument or callback function
+
+        fullname("Nikunj","Soni",greeting);
+    </script>
+</body>
+</html>
