@@ -66,3 +66,12 @@ now goto>terminal>newterminal>choose cmd
 you will see that a new file named 'first.js' is automatically prepared in the folder
 
 >node first.js
+
+
+you will see output in console
+
+
+------preparing 'tsconfig.json' file: its  is a file to configure JSON file that how .ts file converts .js, we can configure in this file
+
+
+> tsc --init (will create tsconfig.json file and we can check the same)
