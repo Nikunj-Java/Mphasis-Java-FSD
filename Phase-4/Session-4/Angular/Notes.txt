@@ -99,6 +99,10 @@ CREATE FIRST ANGULAR APPLICATION
 once the app is ready you need to change the directory or simpli open the folder where you app is  located
 
 > cd myapp
+ to start the application
+
+>ng serve
+
 
 once the app is started goto the browser and open localhost:4200 and hit enter
 
