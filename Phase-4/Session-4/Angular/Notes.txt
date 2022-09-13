@@ -75,3 +75,40 @@ you will see output in console
 
 
 > tsc --init (will create tsconfig.json file and we can check the same)
+
+---------------------------------------------------------------
+STEP: 3 INSTALLING ANGULAR ON YOUR MACHINE
+---------------------------------------------------------------
+
+Let's install angular
+
+> npm install -g @angular/cli (OR npm i -g @angular/cli)
+
+to check the version
+> ng --version  OR (ng v)
+***************************************************************
+
+CREATE FIRST ANGULAR APPLICATION
+
+***************************************************************
+
+> ng new myapp  (you can give any name: myapp)
+	it will  ask you two questions
+	1. do you want to add angular routing: y
+	2. choose CSS: CSS
+once the app is ready you need to change the directory or simpli open the folder where you app is  located
+
+> cd myapp
+
+once the app is started goto the browser and open localhost:4200 and hit enter
+
+
+if you want to change the layout of app
+
+goto>src>app>app.component.html file and edit the code whatever you want
+
+
+<h1> My First Angular App </h1>
+
+
+save it and check the output in browser
