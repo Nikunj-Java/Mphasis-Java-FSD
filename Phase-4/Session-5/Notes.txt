@@ -32,3 +32,75 @@ app.component.html
 
 save it and check the output
 
+****************************************************************
+CLASS BINDING
+****************************************************************
+
+---prepare one array of products in component and fetch it on html
+
+> ng g c binding
+
+goto binding.component.ts file like below
+
+
+ products=[{name:"pencile",price:"8.3",available:"16-09-2022",ratings:4.8},
+            {name:"pen",price:"10",available:"17-09-2022",ratings:5.0},
+            {name:"eraser",price:"5.3",available:"20-09-2022",ratings:4.2},
+            {name:"scale",price:"8.0",available:"16-09-2022",ratings:4.9},
+            {name:"books",price:"12",available:"30-09-2022",ratings:4.7},
+          ]
+
+
+now goto> binding.component.html file
+
+
+<h1>Print JSON Data</h1>
+
+<br>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--NgDirective eg: *ngFor-->
+        <tr *ngFor="let p of products">
+            <td>{{p.name}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.available}}</td>
+            <td>{{p.ratings}}</td>
+        </tr>
+    </tbody>
+</table>
+
+
+goto>binding.component.ts file and copy the selector tag and add it to app.component.html like below
+
+<h1>My First Angular App</h1>
+
+<app-header></app-header>
+<app-footer></app-footer>
+<app-binding></app-binding>
+
+
+[Note: to add bootstarp goto>index.html and add css and bundle scripts from bootstrap.com]
+
+Save it  and check the out put
+
+
+
+
+
+
+
+
+
+
+
+
+
+

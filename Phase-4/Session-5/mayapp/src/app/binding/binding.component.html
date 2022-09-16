@@ -1,0 +1,22 @@
+<h1>Print JSON Data</h1>
+
+<br>
+<table class="table table-striped table-bordered">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Available</th>
+            <th>Ratings</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!--NgDirective eg: *ngFor-->
+        <tr *ngFor="let p of products">
+            <td>{{p.name}}</td>
+            <td>{{p.price}}</td>
+            <td>{{p.available}}</td>
+            <td>{{p.ratings}}</td>
+        </tr>
+    </tbody>
+</table>
