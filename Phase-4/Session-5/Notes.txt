@@ -1,0 +1,34 @@
+***************************************************************
+ANGULAR COMPONENT
+***************************************************************
+Note: add another terminal > cmd>move to root directory of app and execute  the below command
+
+> ng generate component header (OR ng g c header) //header is name of componenet
+
+goto> src> app> header>header.component.ts file and copy the selector tag and add it to the app.component.html like below
+
+app.component.html
+----------------------
+
+<h1>My First Angular App</h1>
+
+<app-header></app-header>
+
+
+similarly we can prepare another component and add it ti the above file
+
+
+> ng g c footer
+
+
+app.component.html
+--------------------
+
+<h1>My First Angular App</h1>
+
+<app-header></app-header>
+<app-footer></app-footer>
+
+
+save it and check the output
+
