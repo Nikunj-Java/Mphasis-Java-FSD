@@ -90,9 +90,8 @@ goto>binding.component.ts file and copy the selector tag and add it to app.compo
 [Note: to add bootstarp goto>index.html and add css and bundle scripts from bootstrap.com]
 
 Save it  and check the out put
-
-
-
+***************************************************************************************************************
+ 
 
 
 

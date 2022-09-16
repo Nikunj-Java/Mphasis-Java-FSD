@@ -17,6 +17,8 @@ export class BindingComponent implements OnInit {
             {name:"eraser",price:"5.3",available:"20-09-2022",ratings:4.2},
             {name:"scale",price:"8.0",available:"16-09-2022",ratings:4.9},
             {name:"books",price:"12",available:"30-09-2022",ratings:4.7},
-          ]
+          ];
+  name:string="NIKUNJ SONI";
+  url:string="http://www.google.com";
 
 }

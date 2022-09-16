@@ -1,0 +1,42 @@
+Data Bindings
+
+Types: 
+	1. Source to view (.ts file to  .html)
+	2. View  to source (.html to .ts)
+	3. Source to view to source (Two Way Bindings)
+Data Binding can be done in two ways
+
+	1. Interpolatiion Bindings {{}}
+	2. Property Bindings []
+
+let's prepare bindings component 
+
+> ng g c binding //binding is name of component
+
+goto> binding.component.ts file
+
+binding.component.ts
+-----------------------
+name:string="NIKUNJ SONI";
+url:string="http://www.google.com";
+
+
+binding.component.html
+-------------------------
+
+<h2>Let's Bind the data from source to view using Interpolation</h2>
+
+<hr>
+
+
+<p>{{name}}</p>
+
+<!--Property Bindings-->
+
+<h2>Let's Bind the data from source to view using property Binding: [] : bind the data with attribute</h2>
+
+<a [href]="url">Connect To Google</a>
+
+
+
+save it and check the output
