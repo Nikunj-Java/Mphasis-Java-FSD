@@ -14,7 +14,7 @@
         <!--NgDirective eg: *ngFor-->
         <tr *ngFor="let p of products">
             <td [class.inStock]="true">{{p.name}}</td>
-            <td>{{p.price}}</td>
+            <td [style.font-weight]="we">{{p.price}}</td>
             <td>{{p.available}}</td>
             <td>{{p.ratings}}</td>
         </tr>
@@ -33,3 +33,14 @@
 <h2>Let's Bind the data from source to view using property Binding: [] : bind the data with attribute</h2>
 
 <a [href]="url">Connect To Google</a>
+
+<br>
+<hr>
+
+<div class="container">
+    <button class="btn btn-primary" (click)="show()">Show Div</button>
+
+    <div *ngIf="flag" style="background-color: yellowgreen;">
+        This is My Div and You Have Successfully Implememneted EVENT BINDING
+    </div>
+</div>

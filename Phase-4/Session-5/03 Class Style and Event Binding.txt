@@ -26,4 +26,52 @@ goto >binding.component.html and bind the class using below tag
 similarly you can prepare many classes and bind them as mentioned above
 
 ***************************************************************
+STYLE BINDING
+***************************************************************
+
+PREPARE ONE NUMBER WITH NAME SAY 'we' in bindings.component.ts file
+
+we:number=700;
+
+now bind the data in binding.component.html file
+
+ <td [style.font-weight]="we">{{p.price}}</td>
+
+
+save it and check the output
+
+
+****************************************************************
+EVENT BINDING
+****************************************************************
+
+preprae one button and div in binding.component.html
+
+binding.component.html
+-------------------------------
+<div class="container">
+    <button class="btn btn-primary" (click)="show()">Show Div</button>
+
+    <div *ngIf="flag" style="background-color: yellowgreen;">
+        This is My Div and You Have Successfully Implememneted EVENT BINDING
+    </div>
+</div>
+
+
+-----------------------------
+
+now >goto> binding.component.ts file and declare flag as below and show method as below
+
+
+flag=false;
+  show(){
+    this.flag=!this.flag;
+  }
+
+
+save it and check the output
+
+
+
+
 
