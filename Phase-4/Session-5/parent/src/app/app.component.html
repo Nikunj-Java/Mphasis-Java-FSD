@@ -1,0 +1,14 @@
+<h1>Component Interaction</h1>
+
+<h2>Parent Component</h2>
+
+<!--Parent to child communication-->
+
+<input type="text" (keyup)="0" #ptext>
+
+
+<!--Child to  parent communication-->
+
+<p>Value coming from child:<b>{{cdata}}</b></p>
+
+<app-child [pdata]="ptext.value" (cevent)="cdata=$event"></app-child>
