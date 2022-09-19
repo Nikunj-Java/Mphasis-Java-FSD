@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup,FormBuilder,Validators } from '@angular/forms';
+import { DataService } from '../data.service';
 
 @Component({
   selector: 'app-register',
@@ -8,6 +9,7 @@ import { FormGroup,FormBuilder,Validators } from '@angular/forms';
 })
 export class RegisterComponent implements OnInit {
 
+   
   //declare formgroup variables
   registerForm: FormGroup;
 
@@ -15,7 +17,7 @@ export class RegisterComponent implements OnInit {
   submitted:boolean=false;
 
   //inject formbuilder dependency to create form with validators
-  constructor(private builder:FormBuilder) { }
+  constructor(private builder:FormBuilder,private service:DataService) { }
 
   //when component initiate we will write code here to build form with validators
   ngOnInit(): void {
@@ -28,6 +30,7 @@ export class RegisterComponent implements OnInit {
         password:["",[Validators.required,Validators.minLength(8)]]
       }
     );
+     
   }
 
 

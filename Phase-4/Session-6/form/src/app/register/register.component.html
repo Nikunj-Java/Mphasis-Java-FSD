@@ -21,7 +21,7 @@
                     <!--Last Name-->
                     <div class="form-group">
                         <label>LastName</label>
-                        <input type="text" formControlName="lastName" class="form-control" [ngClass]="{'is-invalid': submitted && f['lastName'].errors}"/>
+                        <input type="text" formControlName="lastName"   class="form-control" [ngClass]="{'is-invalid': submitted && f['lastName'].errors}"/>
                         <!--Custom Validations-->
                         <div *ngIf="submitted && f['lastName'].errors">
                             <div *ngIf="submitted && f['lastName'].errors['required']">
@@ -47,11 +47,12 @@
 
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="text" formControlName="password" class="form-control" [ngClass]="{'is-invalid': submitted && f['password'].errors}"/>
+                        <input type="text" formControlName="password"   class="form-control" [ngClass]="{'is-invalid': submitted && f['password'].errors}"/>
                         <!--Custom Validations-->
                         <div *ngIf="submitted && f['password'].errors">
                             <div *ngIf="submitted && f['password'].errors['required']">
                                 Password must be minimum 8 character long and Can't Be Empty
+                               
                             </div>
                         </div>
                     </div>

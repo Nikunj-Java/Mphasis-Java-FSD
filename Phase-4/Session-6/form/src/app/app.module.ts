@@ -4,12 +4,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DataService } from './data.service';
 import { RegisterComponent } from './register/register.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    RegisterComponent
+    RegisterComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
@@ -17,7 +20,7 @@ import { RegisterComponent } from './register/register.component';
     ReactiveFormsModule,
     FormsModule,
   ],
-  providers: [],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
