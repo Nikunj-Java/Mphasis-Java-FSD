@@ -7,12 +7,18 @@ import { AppComponent } from './app.component';
 import { DataService } from './data.service';
 import { RegisterComponent } from './register/register.component';
 import { ServiceComponent } from './service/service.component';
+import { DirectivesComponent } from './directives/directives.component';
+import { ChangeColorDirective } from './ChangeColorDirective';
+import { HighLightDirective } from './HighLightDirective';
 
 @NgModule({
   declarations: [
     AppComponent,
     RegisterComponent,
-    ServiceComponent
+    ServiceComponent,
+    DirectivesComponent,
+    ChangeColorDirective,
+    HighLightDirective
   ],
   imports: [
     BrowserModule,
