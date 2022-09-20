@@ -10,6 +10,9 @@ import { ServiceComponent } from './service/service.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { ChangeColorDirective } from './ChangeColorDirective';
 import { HighLightDirective } from './HighLightDirective';
+import { Directives2Component } from './directives2/directives2.component';
+import { MyColor } from './MyColor';
+import { HighLightMe } from './HightlightMe';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { HighLightDirective } from './HighLightDirective';
     ServiceComponent,
     DirectivesComponent,
     ChangeColorDirective,
-    HighLightDirective
+    HighLightDirective,
+    Directives2Component,
+    MyColor,
+    HighLightMe
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,90 @@
+<h1>Pipes Demo</h1>
+
+<div class="jumbotron">
+    <div class="container">
+        <h2>Inbuilt Pipes demo</h2>
+
+        <hr>
+        <p><b>UPPERCASE DEMO: </b>{{name | uppercase}}</p>
+        <hr>
+        <p><b>lowercase demo: </b>{{name | lowercase}}</p>
+    </div>
+</div>
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h2>Number Pipes</h2>
+        <hr>
+        <p><b>pi: </b>{{pi | number:'5.5-5'}}</p>
+        
+        <hr>
+        <p><b>pi: </b>{{pi | number:'.3-3'}}</p>
+
+        <hr>
+        <p><b>pi: </b>{{pi | number:'.10-10'}}</p>
+    
+    </div>
+
+
+   
+</div>
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Currency Pipes</h1>
+
+        <hr>
+        <p><b>USD : </b>{{a | currency : 'USD':true :'3.3-3'}}</p>
+
+        <hr>
+        <p><b>USD : </b>{{a | currency : 'USD':false :'.3-3'}}</p>
+
+        <hr>
+        <p><b>EURO : </b>{{b | currency : 'EURO':false}}</p>
+
+        <hr>
+        <p><b>EURO : </b>{{b | currency : 'EURO':true}}</p>
+
+        <hr>
+        <p><b>INR : </b>{{a | currency : 'INR':true}}</p>
+        <hr>
+        <p><b>INR : </b>{{a | currency : 'INR':true :'4.4-4'}}</p>
+    </div>
+</div>
+
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>Date Pipes</h1>
+        <hr>
+        <p><b>Today is: </b>{{today}}</p>
+
+        <hr>
+        <p><b>Today is: </b>{{today | date}}</p>
+
+
+        <hr>
+        <p><b>Today is: </b>{{today | date: 'dd/MM/yyyy'}}</p>
+       
+
+       
+    </div>
+</div>
+
+
+
+<div class="jumbotron">
+    <div class="container">
+        <h1>JSON Pipes</h1>
+        <hr>
+        <p><b>Without JSON Pipe: </b>{{object}}</p>
+
+        <hr>
+        <p><b>With JSON Pipe: </b>{{object | json}}</p>
+
+         
+       
+    </div>
+</div>
