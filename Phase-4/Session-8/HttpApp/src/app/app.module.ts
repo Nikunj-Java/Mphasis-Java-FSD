@@ -6,10 +6,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ListuserComponent } from './listuser/listuser.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    ListuserComponent
+    ListuserComponent,
   ],
   imports: [
     BrowserModule,

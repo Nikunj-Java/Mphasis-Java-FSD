@@ -8,7 +8,9 @@ import { UserClass } from './UserClass';
 })
 export class DataService {
 
-  url:string="https://jsonplaceholder.typicode.com/users";
+  //url:string="https://jsonplaceholder.typicode.com/users";
+  url:string="./assets/db.json";
+   
 
   //inject the DI
 
@@ -17,4 +19,5 @@ export class DataService {
   getAllUsers():Observable <UserClass[]>{
     return this.http.get<UserClass[]>(this.url);
   }
+ 
 }

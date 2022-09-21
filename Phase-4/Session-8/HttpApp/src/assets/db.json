@@ -1,0 +1,48 @@
+[
+    {
+      "id": 1,
+      "name": "Nikunj Soni",
+      "username": "nikunj.soni",
+      "email": "nikunjsoni@simplilearn.com",
+      "phone": "+91 9876543210",
+      "website": "www.simplilearn.com"
+       
+    },
+    {
+        "id": 2,
+        "name": "Alex D'souza",
+        "username": "alex.Dsouza",
+        "email": "alex@simplilearn.com",
+        "phone": "+91 1234567890",
+        "website": "www.simplilearn.com"
+         
+      },
+      {
+        "id": 3,
+        "name": "Chiranjeet Gorai",
+        "username": "chiranjeet.gorai",
+        "email": "chiranjeet@simplilearn.com",
+        "phone": "+91 7689547632",
+        "website": "www.simplilearn.com"
+         
+      },
+      {
+        "id": 4,
+        "name": "Hritik Bandil",
+        "username": "Hritik.Bandil",
+        "email": "hritik@simplilearn.com",
+        "phone": "+91 8723675409",
+        "website": "www.simplilearn.com"
+         
+      },
+      {
+        "id": 5,
+        "name": "Rayala Lokesh",
+        "username": "Rayala.Lokesh",
+        "email": "rayala@simplilearn.com",
+        "phone": "+91 9898989876",
+        "website": "www.simplilearn.com"
+         
+      }
+     
+  ]
