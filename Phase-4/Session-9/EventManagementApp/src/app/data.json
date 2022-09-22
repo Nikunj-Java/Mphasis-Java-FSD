@@ -1,0 +1,16 @@
+{
+  "todos": [
+    {
+      "firstname": "Nikunj",
+      "lastname": "Soni",
+      "email": "nikunj@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "Sandeep",
+      "lastname": "Shukla",
+      "email": "ss@gmail.com",
+      "id": 3
+    }
+  ]
+}

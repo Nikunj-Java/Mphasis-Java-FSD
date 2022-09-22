@@ -1,0 +1,28 @@
+<div class="container">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>FirstName</th>
+          <th>LastName</th>
+          <th>Email</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let todo of todoList">
+          <td>{{todo.id}}</td>
+          <td>{{todo.firstname}}</td>
+          <td>{{todo.lastname}}</td>
+          <td>{{todo.email}}</td>
+          <td>
+            <button type="button" class="btn btn-link" (click)="editTodo(todo)">Edit</button>
+              <button type="button" class="btn btn-link" (click)="deleteTodo(todo.id)">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <!--<button type="button" class="btn btn-success" (click)="createTodo()">Create</button>-->
+  </div>
+
+  
