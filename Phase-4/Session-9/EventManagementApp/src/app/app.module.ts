@@ -7,7 +7,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminComponent } from './admin/admin.component';
 import { UserComponent } from './user/user.component';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
-import { EditComponent } from './edit/edit.component';
  
 
 
@@ -16,7 +15,7 @@ import { EditComponent } from './edit/edit.component';
     AppComponent,
     AdminComponent,
     UserComponent,
-    EditComponent,
+    
   
   
   ],

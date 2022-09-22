@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { CrudHttpService } from '../crud-http.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-admin',
@@ -13,7 +14,7 @@ export class AdminComponent implements OnInit {
   todoList:any = [];
 
 
-  constructor(private crudHttpService: CrudHttpService){}
+  constructor(private crudHttpService: CrudHttpService,private router:Router){}
 
   
   ngOnInit(): void {
@@ -42,7 +43,33 @@ export class AdminComponent implements OnInit {
     }));
   }
 
-  editTodo(todo: any){
+  user = {
+    id: '',
+    firstname:'',
+    lastname:'',
+    email: '',
+  };
+  isBookAdded = true;
+  flag=false;
+  show(){
+    this.flag=!this.flag;
+  }
+
+  update(newuser:any){
+    let data = {
+      id:this.user.id,
+      firstname:this.user.firstname ,
+      lastname:this.user.lastname,
+      email:this.user.email,
+    }
+     
+    this.crudHttpService.update(newuser.id,data).subscribe(
+      result=>this.todoList=
+      
+    this.router.navigateByUrl('/admin')
+    );
+  }
+  /*editTodo(todo: any){
     let data = {
       id: new Date().getTime(),
       title:`Some Todo` 
@@ -52,7 +79,9 @@ export class AdminComponent implements OnInit {
     },(error=>{
 
     }));
-  }
+  }*/
+
+
 
   deleteTodo(id: any){
     this.crudHttpService.delete(id).subscribe((response)=>{

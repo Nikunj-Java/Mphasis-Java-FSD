@@ -10,19 +10,63 @@
         </tr>
       </thead>
       <tbody>
-        <tr *ngFor="let todo of todoList">
-          <td>{{todo.id}}</td>
-          <td>{{todo.firstname}}</td>
-          <td>{{todo.lastname}}</td>
-          <td>{{todo.email}}</td>
+        <tr *ngFor="let user of todoList">
+          <td>{{user.id}}</td>
+
+          
+          <td>{{user.firstname}}</td>
+          <td>{{user.lastname}}</td>
+          <td>{{user.email}}</td>
           <td>
-            <button type="button" class="btn btn-link" (click)="editTodo(todo)">Edit</button>
-              <button type="button" class="btn btn-link" (click)="deleteTodo(todo.id)">Delete</button>
+          <!--<button type="button" class="btn btn-link" (click)="editTodo(todo)">Edit</button>
+            -->  
+            <button class="btn btn-primary" (click)="show()">Show Div</button>
+
+   
+              <button type="button" class="btn btn-link" (click)="deleteTodo(user)">Delete</button>
           </td>
         </tr>
       </tbody>
     </table>
     <!--<button type="button" class="btn btn-success" (click)="createTodo()">Create</button>-->
   </div>
+
+  <div *ngIf="flag" style="background-color: yellowgreen;">
+    <div class="jumbotron">
+      <div class="container">
+          
+          <div style="width: 500px; margin: auto;">
+              <div class="submit-form">
+                
+                  <div class="form-group">
+                    <label for="name">FirstName: {{user.firstname}}</label>
+                    <input class="form-control" id="firstname"   [(ngModel)]="user.firstname"  name="firstname"/>
+                  </div>
+            
+                  <div class="form-group">
+                      <label for="country">LastName</label>
+                      <input class="form-control" id="lastname" [(ngModel)]="user.lastname"  name="lastname" />
+                    </div>
+  
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input class="form-control" id="email" [(ngModel)]="user.email"  name="email" />
+                  </div>
+            
+                 
+                  <button (click)="update(user.id)"  class="btn btn-success">Update</button> 
+                   
+                
+                  
+            
+                 
+              </div>
+            </div>
+      </div>
+      
+      
+  </div>
+  
+</div>
 
   
