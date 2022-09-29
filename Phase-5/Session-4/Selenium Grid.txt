@@ -48,4 +48,24 @@ STEP:4 PREPARING CUSTOM NODE AND HUB
 
 GOTO> GOOGLE > SEARCH FOR CUSTOM HUB AND CUSTOM NODE FOR SELENIUM GRID
 
+link: https://www.seleniumeasy.com/selenium-tutorials/configure-selenium-grid-using-json-config-file
+
+
+
+open: visualstudio or any text editor and save hubconfig.json and nodeconfig.json file at the same root directory where your selenium server file is located
+
+
+1. CUSTOM HUB
+------------------
+
+> java -jar selenium-server-standalone-3.5.0.jar -role hub -hubConfig myhubconfig.json
+
+
+2. CUSTOM NODE:
+-------------------
+> java -Dwebdriver.chrome.driver="C:\Program Files\Google\Chrome\Application\chromedriver.exe" -jar selenium-server-standalone-3.5.0.jar -role node -nodeConfig nodeconfig.json
+
+
+
+
 
