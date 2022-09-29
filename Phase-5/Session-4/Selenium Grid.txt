@@ -41,3 +41,11 @@ eg: java -Dwebdriver.chrome.driver="C:\Program Files\Google\Chrome\Application\c
 similarly we can connect another node
 
 java -Dwebdriver.chrome.driver="C:\Program Files\Google\Chrome\Application\chromedriver.exe" -jar selenium-server-standalone-3.5.0.jar -role node -port 4457 -hub http://192.168.0.111:4444/grid/register/
+
+***************************************************************************************************************
+STEP:4 PREPARING CUSTOM NODE AND HUB
+***************************************************************************************************************
+
+GOTO> GOOGLE > SEARCH FOR CUSTOM HUB AND CUSTOM NODE FOR SELENIUM GRID
+
+
