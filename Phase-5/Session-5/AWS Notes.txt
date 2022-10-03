@@ -1,0 +1,38 @@
+*********************************************
+1. CONNECT LOCAL MACHINE TO AWS EC2 INSTANCE
+*********************************************
+
+1. GOTO> LAB
+2. PREPARE AWS EC2 INSTANCE WITH REQUIRED CONBFIGURATION> DOWNLOAD .PEM FILE AND MOVE TO THE DESIRE DIRECTORY
+3. TO CONNECT AWS WITH LOCAL MACHINE YOU NEED TO DOWNLOAD SOFTWARE CALLED MOBA X-TERM
+
+LINK: https://mobaxterm.mobatek.net/
+
+4. OPEN MOBA X-TERM AND MOVE TO THE ROOT DIRECTORY WHERE YOU HAVE STORED .PEM FILE
+5. GOTO> AWS >INSTANCE> CHOOSE YOUR RUNNING INSTANCE> CONNECT>COPY THE EXAMPLE KEY
+
+6. OPEN MOBA X-TERM AND PASTE THE KEY TO CONNECT
+
+
+**********************************************
+2. PREPARE INDEX.HTML PAGE
+**********************************************
+
+> sudo su -
+> yum install httpd -y
+> cd /var/www/html
+> vi index.html
+
+press 'i' to insert  into htmlpage
+
+> <h1>Welcome to AWS  Cloud</h1>
+
+press 'esc' 
+> :wq!
+hit enter button
+
+>service httpd start
+
+> curl  localhost
+
+this will print content of html page
