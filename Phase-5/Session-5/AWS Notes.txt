@@ -36,3 +36,48 @@ hit enter button
 > curl  localhost
 
 this will print content of html page
+
+
+********************************************
+3. ATTACH EBS VOLUME AND FORMATTING
+********************************************
+
+1. prepare new EBS volume from same region from where you had prepared EC@ instance
+2. connect instance using moba x-term
+3. List Available Disk
+
+> lsblk
+
+4. to check if the volume has any data or not?
+
+> sudo file -s /dev/xvdf
+
+5. to formate drive to ext4 partition system
+
+> sudo mkfs -t ext4 /dev/xvdf
+
+6. to  change the name of directory
+
+> sudo mkdir /newvolume
+
+7. to mount the drive
+
+> sudo mount /dev/xvdf /newvolume
+
+8. to  move to the new volume
+
+> cd /newvolume
+
+9. to check how much percent disk is in the use
+
+> df -h .
+
+10. to check the list of available disk
+> lsblk (here you will see newvolume name in the list)
+
+
+
+11. to unmount the drive
+
+> cd..
+> sudo umount /dev/xvdf
