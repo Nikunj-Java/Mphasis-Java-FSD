@@ -1,0 +1,36 @@
+1. Prepare AWS Instance(Ubuntu Server 22.04 LTS (HVM), SSD Volume Type)
+2. Security : Add port no .8080 with Custom TCP Rule
+3. Download .pem Key and connect using Moba x-term
+4. goto> eclips> choose your app>(App buil on JDK  8) right click on it and run as 
+	- maven clean
+	- maven install
+	- maven build
+
+5. goto> target folder and copy the .jarfile
+
+	eg: APP_NAME-SNAPSHOT-0.0.1.jar file and drag it to moba x-term on left side of window
+
+
+6. Install Java(JDK8) on Amazon EC2 Instance
+
+> sudo apt update
+> sudo apt-get install openjdk-8-jdk
+-----------to check the java version-----------
+> java -version
+
+			OR
+6. Install Java(JDK11) on Amazon EC2 Instance
+> sudo apt update
+> sudo apt install default-jre
+-----------to check the java version-----------
+> java -version
+
+7. Install Maven
+> sudo apt update
+> sudo apt-get install maven 
+
+8. Run Your Application
+> java -jar APP_NAME-SNAPSHOT-0.0.1.jar
+
+once tomcat is started
+copy your  aws EC2 instance PublicIpAddress:8080 in browser you will see the output 
