@@ -1,0 +1,88 @@
+*********************************************************
+STEP:1 AWS UBUNTU INSTANCE
+*********************************************************
+1. Prepare AWS Instance(Ubuntu Server 22.04 LTS (HVM), SSD Volume Type)
+2. Security : Add port no: 80 with Custom TCP Rule
+3. Download .pem Key and connect using Moba x-term
+
+*********************************************************
+STEP:2 CONNECT WITH MOBA X-TERM
+*********************************************************
+open moba x-term
+> cd d:      //here d: is my drive
+> cd phase-5  //phase-5 is a folder inside d: driver where .pen key is available
+
+>goto> aws >instance>choose your instance>connect>ssh>copy example key
+
+*********************************************************
+STEP:3 DOCKER INSTALLATION ON UBUNTU OS
+*********************************************************
+GOTO > GOOGLE> DOCKER INSTALLTION ON UBUNTU
+----------------------------------------------------
+LINK:https://docs.docker.com/engine/install/ubuntu/
+
+>sudo apt-get update
+>sudo apt-get install ca-certificates curl gnupg lsb-release
+
+>sudo mkdir -p /etc/apt/keyrings
+>curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+
+>echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+
+>sudo apt-get update
+>sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+
+------TO VERIFY THE INSTALLTION------
+
+> sudo docker -v
+	output: Docker version 20.10.18, build b40c2f6
+
+> sudo docker --version
+
+> sudo docker info
+
+-----TO LIST DOCKER CONTAINERS-------
+> sudo docker container ls
+
+
+-----TO LIST THE DOCER IMAGES
+> sudo docker images
+
+-----TO CHECK THE DOCKER VOLUME-------
+> sudo docker volume  ls
+
+*******************************************************************
+STEP:4 PULL DOCKER IMAGES
+*******************************************************************
+> sudo docker pull ubuntu
+
+> sudo docker pull mysql
+
+*******************************************************************
+STEP: 5 PULL GIT HUB IMAGES(CUSTOM IMAGES)
+*******************************************************************
+
+LINK: https://github.com/Nikunj-Java/docker_master.git
+
+> git clone https://github.com/Nikunj-Java/docker_master.git
+> ls (to check available folders)
+> cd docker_master
+
+----let's prepare the image in a docker container-----
+
+> sudo docker build -t myimage . (. is mendatory)
+> sudo docker images (to check the image is prepared or not)
+
+----let's run the image in a docker container----------
+
+> sudo docker run -d --name mycontainer -p 80:80 myimage
+
+(this will run my image on port no 80 and container  name is mycontainer)
+
+> sudo docker container ls
+
+to check with app is running or not
+
+> curl localhost
+
+this will open index.php page
