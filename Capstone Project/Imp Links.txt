@@ -1,0 +1,83 @@
+******************************
+SPINGBOOT APP:
+******************************
+lINK:  https://github.com/Nikunj-Java/backupsessions/tree/main/Capstone%20Project%2017-07-2022/SpringBootCRUD
+
+
+**************************************************
+ANGULAR FRONTEND AND BACKEND INTEGRATION WITH API
+**************************************************
+LINK: https://github.com/Nikunj-Java/backupsessions/tree/main/Capstone%20Project%2017-07-2022/capstone
+
+
+
+**************************************************
+CREATING HTTP SERVICE
+**************************************************
+LINK: https://github.com/Nikunj-Java/backupsessions/blob/main/Capstone%20Project%2017-07-2022/Http%20service.docx
+
+
+
+**************************************************
+ANGULAR FORM VALIDATIONS
+**************************************************
+LINK: https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-4/Session-5/parent
+
+
+
+***************************************************
+BACKEND JAVA VALIDATIONS
+***************************************************
+LINK: https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-1/Session-3/regex
+
+
+
+****************************************************
+SEARCHING AND SORNING
+****************************************************
+LINK: https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-1/Session-8
+
+
+
+
+*****************************************************
+IMAGE UPLOADING TO FOLDER AND URL UPLOAD IN DATABASE
+*****************************************************
+
+LINK: https://github.com/Nikunj-Java/backupsessions/tree/main/Capstone%20Project%2017-07-2022/FileUpload-main
+
+
+
+
+******************************************************
+DEVOPS: SELENIUM 
+******************************************************
+
+LINK1 : https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-5/Session-1
+LINK2 : https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-5/Session-2
+
+
+
+*******************************************************
+DEVOPS: TESTNG
+*******************************************************
+
+LINK : https://github.com/Nikunj-Java/Mphasis-Java-FSD/tree/main/Phase-5/Session-3/TestNg
+
+
+
+********************************************************
+DEVOPS: DEPLOY APP ON AWS EC2 INSTANCE
+*********************************************************
+
+LINK : https://github.com/Nikunj-Java/Mphasis-Java-FSD/blob/main/Phase-5/Session-6/01.%20Deploy%20App%20On%20EC2%20Instance.txt
+
+
+
+*********************************************************
+DEVOPS: CI/CD PIPELINE
+*********************************************************
+
+LINK 1: https://github.com/Nikunj-Java/Mphasis-Java-FSD/blob/main/Phase-5/Session-7/04%20Install%20Jenkins%20With%20Docker.txt
+
+LINK2 : https://github.com/Nikunj-Java/Mphasis-Java-FSD/blob/main/Phase-5/Session-8/01%20Jenkins%20CICD%20pipeline.docx
